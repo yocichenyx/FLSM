@@ -9,8 +9,7 @@ This is a small program based on Wechat and Baidu Cloud Face Recognition Interfa
 ## 具体实现过程
 >人脸识别登陆
 
-主要是用微信camera组件，及wx.request
-该部分的详细实现步骤，可参阅我的博客文章
+主要是用微信camera组件，及wx.request API实现。该部分的详细实现步骤，可参阅我的博客文章
 https://www.cnblogs.com/yocichen/p/10354035.html
 （如果遇到问题，可参考博客下方评论，也可直接和我交流，一起解决）
 
@@ -21,7 +20,9 @@ https://www.cnblogs.com/yocichen/p/10354035.html
 
 ## 遇到的问题
 >使用中文昵称进行人脸库注册时，总是失败？
+
 接口说明中要求人脸库的id必须由是数字和字母组成，我在测试的时候用的微信昵称也是英文，所以不涉及上述问题，但有园友遇到了，我的想法是采用MD5进行加密，这样单向性加密，既可以解决中文出错的问题还可以增加安全性。
 
 >移动端无法使用小程序？
+
 目前还未解决，问题锁定在登陆注册模块的拍照上传上，闲下来解决。
