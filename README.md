@@ -1,6 +1,8 @@
 # 人脸识别密码存储小程序
-一个基于人脸识别和简单数据库技术的、用于个人密码管理的小程序。基于WeChat!
+一个基于人脸识别的、用于个人密码管理的小程序。基于WeChat!
 This is a small program based on Wechat and Baidu Cloud Face Recognition Interface.
+使用工具：微信web开发者工具。
+优势:完全在线注册人脸和验证人脸，无需后台代码。
         
 ## 主要功能
 - 在线人脸识别登陆
@@ -9,7 +11,7 @@ This is a small program based on Wechat and Baidu Cloud Face Recognition Interfa
 ## 具体实现过程
 >人脸识别登陆
 
-主要是用微信camera组件，及wx.request API实现。该部分的详细实现步骤，可参阅我的博客文章
+主要是用微信camera组件，及wx.request API访问百度云人脸识别接口实现。该部分的详细实现步骤，可参阅我的博客文章
 https://www.cnblogs.com/yocichen/p/10354035.html
 （如果遇到问题，可参考博客下方评论，也可直接和我交流，一起解决）
 
