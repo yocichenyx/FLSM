@@ -25,4 +25,5 @@ https://www.cnblogs.com/yocichen/p/10354035.html
 
 >移动端无法使用小程序？
 
-目前还未解决，问题锁定在登陆注册模块的拍照上传上，闲下来解决。
+已经解决。
+原因及解决方式：wx.request采用并发方式，需要将获取token和上传人脸图片封装成为一个函数，并将上传图片的请求放在获取token的请求回调函数中，这样可以避免出现access token is invalid or no longer validc错误的出现。
