@@ -1,7 +1,9 @@
 # 人脸识别密码存储小程序
 一个基于人脸识别的、用于个人密码管理的小程序。基于WeChat!
 This is a small program based on Wechat and Baidu Cloud Face Recognition Interface.
+
 使用工具：微信web开发者工具。
+
 优势:完全在线注册人脸和验证人脸，无需后台代码。
         
 ## 主要功能
