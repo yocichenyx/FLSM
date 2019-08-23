@@ -17,8 +17,8 @@ Page({
       url: 'https://aip.baidubce.com/oauth/2.0/token',
       data: {
         grant_type: 'client_credentials',
-        client_id: 'qucASVICDyaxSilxbHVR3IMD',
-        client_secret: 'xhKa3Px6IO5fZpSPSM5ACdDwjiwFqDQ8' //自己的
+        client_id: '********************',
+        client_secret: '********************' //自己的
       },
       header: {
         'Content-Type': 'application/json' // 默认值
@@ -34,7 +34,7 @@ Page({
           data: {
             image: that.data.base64,
             image_type: 'BASE64',
-            group_id: 'user_face_1', //自己的组id
+            group_id: '****', //自己的组id
             user_id: that.data.nickName //这里获取
           },
           header: {
