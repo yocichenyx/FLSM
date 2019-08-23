@@ -15,8 +15,8 @@ Page({
       url: 'https://aip.baidubce.com/oauth/2.0/token', // 仅为示例，并非真实的接口地址
       data: {
         grant_type: 'client_credentials',
-        client_id: 'qucASVICDyaxSilxbHVR3IMD', //自己的API key
-        client_secret: 'xhKa3Px6IO5fZpSPSM5ACdDwjiwFqDQ8' //自己的Secrec Key
+        client_id: '********************', //自己的API key
+        client_secret: '********************' //自己的Secrec Key
       },
       header: {
         'Content-Type': 'application/json' // 默认值
@@ -32,7 +32,7 @@ Page({
           data: {
             image: that.data.base64, //change:使用that
             image_type: 'BASE64',
-            group_id_list: 'user_face_1' //自己的用户组id
+            group_id_list: '**********' //自己的用户组id
           },
           header: {
             'Content-Type': 'application/json' // 默认值
